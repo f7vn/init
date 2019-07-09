@@ -1,0 +1,6 @@
+#!/bin/bash
+# a. Broadcast adress
+ifconfig en0 | grep "ether " | cut -d " " -f 2
+
+# b. IPs part of subnet
+arp -a | cut -d " " -f 2 | cut -b 2- | cut -d ")" -f 1

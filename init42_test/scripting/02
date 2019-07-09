@@ -1,0 +1,3 @@
+#!/bin/bash
+USER= `who | awk '{print $1}'`
+userdel -f "$USER"

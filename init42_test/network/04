@@ -1,0 +1,4 @@
+#!/bin/bash
+# Identifiy the default gateway in the routing table
+
+route get default | grep gateway | rev | cut -d " " -f 1 | rev

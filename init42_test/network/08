@@ -1,0 +1,4 @@
+#!/bin/bash
+# we can use thi https://ipinfo.io/
+# AWS
+nslookup slash16.org

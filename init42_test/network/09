@@ -1,0 +1,6 @@
+#!/bin/bash
+# nslookup 42.fr | grep Address | cut -d " " -f 2 | tail -3
+# External IPs
+163.172.250.11
+163.172.250.13
+163.172.250.12

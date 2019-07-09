@@ -1,0 +1,2 @@
+cat /etc/hostname
+cat /etc/hosts

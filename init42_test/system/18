@@ -1,0 +1,2 @@
+kill - service ssh status [PID]
+sudo kill [PID]

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "Сменить дефолт /etc/hosts на intra.42.fr"

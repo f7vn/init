@@ -1,0 +1,2 @@
+# sudo service ssh status | grep "port" | cut -d " " -f 11 | rev | cut -b 2- | rev
+ssh $(whoami)@127.0.0.1 -p 22

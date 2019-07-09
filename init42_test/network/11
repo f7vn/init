@@ -1,0 +1,5 @@
+#!/bin/bash
+# Use the output of the previous command to find the name and IP address of the
+# device that makes the link between you (local network) and the outside world
+
+traceroute ya.ru | head -2 | tail -1 | cut -d " " -f -4 | rev | cut -d " " -f 1 | rev
